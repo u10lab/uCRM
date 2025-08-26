@@ -125,7 +125,7 @@ return [
     'prohibited_unless'     => ':otherが:valuesに含まれていない限り、:attributeフィールドは禁止されています。',
     'prohibits'             => ':attributeフィールドは:otherの存在を禁止します。',
     'regex'                 => ':attributeの形式が無効です。',
-    'required'              => ':attributeフィールドは必須です。',
+    'required'              => ':attributeは必ず指定ください。',
     'required_array_keys'   => ':attributeフィールドには、:valuesのエントリが必要です。',
     'required_if'           => ':otherが:valueの場合、:attributeフィールドは必須です。',
     'required_if_accepted'  => ':otherが承認された場合、:attributeフィールドは必須です。',
@@ -198,6 +198,9 @@ return [
         'hour'                  => '時',
         'minute'                => '分',
         'second'                => '秒',
+        'memo'                => 'メモ',
+        'price'                => '料金',
+
     ],
 
 ];
