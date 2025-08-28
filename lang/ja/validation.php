@@ -200,7 +200,10 @@ return [
         'second'                => '秒',
         'memo'                => 'メモ',
         'price'                => '料金',
-
+        'tel'                => '電話番号',
+        'postcode'                => '郵便番号',
+        'birthday'                => '誕生日',
+        'kana'                => 'カナ',
     ],
 
 ];
